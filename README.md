@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 [![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=tecsoc&left_color=gray&right_color=blue)
+<!-- ![Visitors](https://visitor-badge.glitch.me/badge?page_id=tecsoc&left_color=gray&right_color=blue) -->
  
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=vue)
  
