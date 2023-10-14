@@ -20,7 +20,7 @@ Here are some ideas to get you started:
  
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tecsoc&show_icons=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tecsoc&theme=shadow_blue&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tecsoc&langs_count=10&theme=github_dark_dimmed)](https://github.com/anuraghazra/github-readme-stats)
 
