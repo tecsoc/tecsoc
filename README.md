@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 [![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
 <!-- ![Visitors](https://visitor-badge.glitch.me/badge?page_id=tecsoc&left_color=gray&right_color=blue) -->
  
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tecsoc&show_icons=true)
  
