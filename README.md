@@ -16,7 +16,8 @@ Here are some ideas to get you started:
 -->
 
 [![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
-<!-- ![Visitors](https://visitor-badge.glitch.me/badge?page_id=tecsoc&left_color=gray&right_color=blue) -->
+
+![Counter](https://komarev.com/ghpvc/?username=tecsoc)
  
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
  
