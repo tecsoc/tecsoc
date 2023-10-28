@@ -14,12 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-[![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
-
 ![Counter](https://komarev.com/ghpvc/?username=tecsoc)
+[![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
+<a href="https://zenn.dev/tecsoc/articles">
+ <img src="https://zenn.badge.nikaera.com/s/tecsoc/articles?style=flat" alt="tecsoc articles" />
+</a>
  
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
+![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tecsoc&theme=shadow_blue&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
  
