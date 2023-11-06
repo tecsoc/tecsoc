@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![Counter](https://komarev.com/ghpvc/?username=tecsoc)
-[![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc)
 <a href="https://zenn.dev/tecsoc/articles">
  <img src="https://zenn.badge.nikaera.com/s/tecsoc/articles?style=flat" alt="tecsoc articles" />
 </a>
+<!-- [![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc) -->
  
 ![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
  
