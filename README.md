@@ -14,8 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Counter](https://komarev.com/ghpvc/?username=tecsoc)
-[Zennの記事一覧](https://zenn.dev/tecsoc/articles)
+![Profile views](https://hits.sh/github.com/tecsoc.svg?label=Profile%20views&color=007ec6&extraCount=3631)
+
+[Zennの記事一覧](https://zenn.dev/tecsoc?tab=articles)
 <!-- [![Twitter:](https://img.shields.io/twitter/follow/tec2soc?style=social)](https://twitter.com/tec2soc) -->
  
 ![GitHub Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tecsoc&theme=nord_bright)
