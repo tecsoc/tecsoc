@@ -6,11 +6,22 @@ README は保存済みの画像を参照するため、生成元の障害で画�
 
 - 毎日 06:17 JST に更新します。GitHub 側の混雑で実行時刻が遅れる場合があります。
 - 手動更新は GitHub の Actions → Update profile cards → Run workflow から実行します。
-- ワークフローファイルを変更したブランチへの push でも実行します。
-- 3画像の生成・SVG検証がすべて成功した場合だけ、実行ブランチへコミットします。
+- ワークフローファイルまたは `.node-version` を変更したブランチへの push でも実行します。
+- 3画像の生成・Node.jsバージョン検証・SVG検証がすべて成功した場合だけ、実行ブランチへコミットします。
 - 失敗時は Actions のログを確認してください。保存済みの画像は前回の状態を維持します。
 - 認証には GitHub が発行する `GITHUB_TOKEN` を使います。個人アクセストークンの登録は不要です。
 - Action はコミットSHA、統計生成ライブラリはバージョン番号で固定しています。更新時はブランチで生成結果を確認してください。
+
+## Node.js の更新
+
+カード生成用の Node.js は `.node-version` で管理します。
+先に指定版をランナーのツールキャッシュへ追加し、統計生成 Action 内部の `24.x` 指定がキャッシュの最新修正版を選ぶようにします。
+生成後は、実行した Node.js が `.node-version` と同じメジャー版で、指定版以上であることを検証します。
+Action 実行用の内蔵 Node.js は GitHub 管理ランナーの更新対象です。
+
+1. `.node-version` を修正版へ更新してブランチへ push します。
+2. Actions の `Generate stats` と `Generate top languages` のログで、修正版が選択されたことを確認します。
+3. `Validate Node.js and generated SVGs` の成功と、生成された3画像を確認します。
 
 ## 生成元
 
