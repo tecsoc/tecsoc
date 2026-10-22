@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/update-profile.yml'
+      - '.node-version'
 
 permissions:
   contents: write
@@ -21,6 +22,12 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .node-version
+          package-manager-cache: false
 
       - name: Generate stats
         uses: stats-organization/github-readme-stats-action@abb8761d64babb580b336af88cccb2db39063440
@@ -49,11 +56,20 @@ jobs:
           output_path: profile/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate generated SVGs
+      - name: Validate Node.js and generated SVGs
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import subprocess
           import xml.etree.ElementTree as ET
+
+          required_node = Path('.node-version').read_text().strip()
+          actual_node = subprocess.check_output(['node', '-p', 'process.versions.node'], text=True).strip()
+          required_version = tuple(map(int, required_node.split('.')))
+          actual_version = tuple(map(int, actual_node.split('.')))
+          if actual_version[0] != required_version[0] or actual_version < required_version:
+              raise ValueError(f'Node.js {actual_node} must be >= {required_node} in the same major version')
+          print(f'Node.js {actual_node} satisfies .node-version ({required_node})')
 
           for name in ('stats', 'top-langs', 'trophy'):
               path = Path('profile') / f'{name}.svg'
