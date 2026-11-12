@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">TecSoc&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 7, Total Commits  (last year) : 24, Total PRs: 47, Total PRs Merged: 39, Merged PRs Percentage: 82.98, Total PRs Reviewed: 1, Total Issues: 29, Total Discussions Started: 3, Total Discussions Answered: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 7, Total Commits  (last year) : 28, Total PRs: 51, Total PRs Merged: 43, Merged PRs Percentage: 84.31, Total PRs Reviewed: 1, Total Issues: 29, Total Discussions Started: 3, Total Discussions Answered: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 174.59782606692056;
+        stroke-dashoffset: 172.39896831507312;
       }
     }
 
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >24</text>
+      >28</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >47</text>
+      >51</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged"
-      >39</text>
+      >43</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >82.98 %</text>
+      >84.31 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
